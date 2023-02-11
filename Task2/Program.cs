@@ -35,6 +35,6 @@ int sum = 0;
 for (int i = 1; i < array.Length; i++)
     if (array[i] % 2 == 1) 
       sum = sum + array[i];
-    Console.WriteLine($"всего {array.Length} чисел, сумма элементов на нечётных позициях = {sum}");
+    Console.WriteLine($"Сумма элементов на нечётных позициях = {sum}");
 
          
