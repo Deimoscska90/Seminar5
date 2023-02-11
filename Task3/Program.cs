@@ -44,5 +44,4 @@ for (int i = 0; i < array.Length; i++)
         }
 }
 
-Console.WriteLine($"всего {array.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
-Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
+Console.WriteLine($"Разница максимального и минимального значения = {max - min}");
